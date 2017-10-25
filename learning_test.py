@@ -5,9 +5,8 @@ Maintainer: Tassos Mousoulides
 
 """
 
-text_var = input('Type in name:')
+text_var = raw_input("What is your name: ")
 
-print("hello,"+text_var)
-
+print("Hello, "+ text_var)
 
 
